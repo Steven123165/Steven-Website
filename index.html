@@ -1,87 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to My Portfolio</title>
-    <style>
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-        th, td {
-            border: 1px solid black;
-            padding: 8px;
-            text-align: left;
-        }
-        th {
-            background-color: #f2f2f2;
-        }
-    </style>
+    <title>Steven Sui Website</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-    <!-- Header Section -->
-<header>
-    <h1 style="background-color:PaleTurquoise;">My Portfolio</h1>
-</header>
-    <!-- About Me Section -->
-        <h2 style="background-color:LightSalmon;">About Me</h2>
-        <p>
-            Hello, I am Steven in the graphic design program at SAIT.
-            I am a fall 2024 student in Interactive Design program.
-            2021 graduated from Business Administration Finance Program from NAIT.
-            Working in advertising industry is my career, so wish I could improve 
-            myself during this two years study of Graphic Design.
-        </p>
 
-        <!-- Skills Section -->
-         <section>
-            <h3 style="background-color:LightSalmon;">Skills</h3>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Skills</th>
-                        <th>Software</th>
-                        <th>Experience</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Photography</td>
-                        <td>Adobe Photoshop/Light Room</td>
-                        <td>2 years camera using, Basic Pilot certificate</td>
-                    </tr>
-                    <tr>
-                        <td>Video Editing</td>
-                        <td>Final Cut Pro/Adobe Premiere</td>
-                        <td>2 years video editing</td>
-                    </tr>
-                    <tr>
-                        <td>Graphic Design</td>
-                        <td>Adobe Illustrator</td>
-                        <td>1 year working in media company</td>
-                    </tr>
-                </tbody>
-            </table>
-            <h3 style="background-color:LightSalmon;">School Courses Fist Semester</h2>
+<body>
+    <div class="header"> 
+        <div class="logo">
+            <h1>Steven Sui</h1>
+        </div>
+        <div class="nav">
+            <a href="index.html">Home</a>
+            <a href="#about">About</a>
+            <a href="#Portfolio">Portfolio</a>
+            <a href="#Contact">Contact</a>
+        </div>
+    </div>
+    <div class="banner">
+        <img src="image/DSC00013.jpg" alt="">
+    </div>    
+    <section>
+      <!-- About Me -->
+      <div class="title">
+        <div class="line"></div>
+        <h3>About Me</h3>
+        <div class="line"></div>
+       </div>
+    <!-- About Me -->
+     <div id="about">
+        <div class="about-img">
+            <img src="image/myself.jpg" alt="">
+        </div>
+        <div class="about-text">
+            <p>Hi, my name is Steven Sui, a current <a href="https://www.sait.ca">SAIT</a> Interactive Design Graphic Design 
+               diploma program student, started from September fall 2024.<br><br>
             <ul>
-                <li>Introduction to Visual Design</li>
-                <li>Introduction to Web Communications</li>
-                <li>Digital Media Foundations</li>
-                <li>Critical Thinking</li>
-                <li>Technical Communications</li>
+                <li><p>The main subjects of study</p></li>
+                <ol>
+                    <li><p>Visual Design</p></li>
+                    <li><p>Web Communication</p></li>
+                    <li><p>Digital Media Foundations</p></li>
+                </ol><br>
+                <li><p>Skills</p></li>
+                <ol>
+                    <li><p>Photography</p></li>
+                    <li><p>Video Editing</p></li>
+                    <li><p>Graphic Design</p></li>
+                </ol><br>
+                <li><p>Experience</p></li>
+                <ol>
+                    <li><p>Phohograohy 2 years experience/Basic Pilot certificate</p></li>
+                    <li><p>Video Editing 2 years experience</p></li>
+                    <li><p>Working in Graphic Design region for 1 year</p></li>
+                    <li><p>Adobe Photoshop-4years / Adobe Illustrator-1 year / Final cut pro-2 years / 
+                        understand color grading of photos and videos
+
+                    </p></li>
+                </ol>
             </ul>
-        </section>
-        <!-- Hobbies Section -->
-        <section>
-            <h3 style="background-color:LightSalmon;">Hobbies</h3>
-            <ol>
-                <li>Swimming</li>
-                <li>Hiking</li>
-                <li>Wachting Movies</li>
-                <li>Photography</li>
-                <li>Travel</li>
-            </ol>
-        </section>
+        </div>
+        
+     </div>
+    </section>
+
+    <section>  
+     <!-- Portfplio -->
+     <div class="title">
+        <div class="line"></div>
+        <h3>Portfolio</h3>
+        <div class="line"></div>
+       </div>
+      <!-- Portfplio --> 
+    <div id="Portfolio">
+        <ul>
+            <li>
+                <img src="image/DSC02320.jpg" alt="fireworks">
+                <p>Fireworks</p>
+            </li>
+            <li>
+                <img src="image/DSC08499.jpg" alt="Clagary Library">
+                <p>Clagary Library</p>
+            </li>
+            <li>
+                <img src="image/DSC08980.jpg" alt="Crane">
+                <p>Crane</p>
+            </li>
+            <li>
+                <img src="image/DSC09624.jpg" alt="Beijing Forbidden City">
+                <p>Beijing Forbidden City</p>
+            </li>
+          
+        </ul>
+    </div>
+    <div id="Portfolio">
+        <ul>
+            <li>
+                <img src="image/IMG_0205-copy.jpg" alt="fireworks">
+                <p>Northern Light</p>
+            </li>
+            <li>
+                <img src="image/IMG_0172-copy.jpg" alt="Calgary Canmore">
+                <p>Calgary Canmore</p>
+            </li>
+            <li>
+                <img src="image/IMG_0182-copy.jpg" alt="Sunset">
+                <p>Sunset</p>
+            </li>
+            <li>
+                <img src="image/DJI_0271.jpg" alt="Drumheller Star Trails">
+                <p>Drone View</p>
+            </li>
+          
+        </ul>
+    </div>
+    </section>
+
+    <section>
+     <!-- Contact -->
+     <div class="title" id="Contact">
+        <div class="line"></div>
+        <h3>Contact</h3>
+        <div class="line"></div>
+       </div>
+       <div class="Contact">
+        <ol>
+            <li><p>Contact by Email: 1490207511@qq.com</p></li>
+            <li><p>Contact by Phone: 780-655-9681</p></li>
+            <li><p>Working Hours: 
+                Monday to Friday 8am-5pm</p></li>
+        </ol>
+       </div>
+    </section>
 </body>
 </html>
