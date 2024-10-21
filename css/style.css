@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    padding: 10px 10%;
+    background-color: rgba(223, 220, 220, 0.5);
+}
+.logo h1{
+    color: rgb(148, 73, 15);
+    letter-spacing: 3px;
+    font-size: 30px;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    margin-left: 10px;
+}
+.banner{
+    width: 100%;
+    height: 60vh;
+}
+.banner img{
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.title h3{
+    text-align: center;
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    letter-spacing: 2px;
+    margin: 0 20px;
+    font-weight: normal;
+}
+.title .line{
+    width: 80px;
+    height: 2px;
+    background: #555;
+}
+#about{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 30px auto;
+}
+.about-img{
+    float: left;
+    width: 45%;
+    height: 100%;
+}
+.about-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.about-text{
+    float: right;
+    font-size: 18px;
+    width: 50%;
+}
+.about-text p{
+    line-height: 1.8;
+    
+}
+
+#Portfolio ul{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 30px auto;
+
+}
+#Portfolio ul li{
+    list-style: none;
+    width: 24%;
+}
+#Portfolio ul li img{
+    display: block;
+    width: 100%;
+    height: 200px;
+    border-radius: 10px 10px 0 0;
+    object-fit: cover;
+}
+#Portfolio ul li p{
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    background: #f2f2f2;
+}
+.Contact{
+    width: 1200px;
+    margin: 30px auto;
+}
+.Contact ol li p{
+    font-size: 18px;
+    width: 50%;
+}
