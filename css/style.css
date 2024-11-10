@@ -110,3 +110,9 @@
     font-size: 18px;
     width: 50%;
 }
+.footer{
+    background-color: #333;
+    color: #FFF;
+    text-align: center;
+    padding: 15px 0;
+}
